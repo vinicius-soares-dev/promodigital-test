@@ -1,0 +1,21 @@
+.progress-bar {
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-background-bar);
+    margin: 1em;
+    border-radius: 1em;
+    width: 250px;
+    height: 50px;
+}
+
+.progress-bar > .result-bar {
+    font-family: var(--font-main);
+    margin-left: 2em;
+    
+}
+
+.progress-bar > .result-bar > p {
+    font-size: 0.8rem;
+}

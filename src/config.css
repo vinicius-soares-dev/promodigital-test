@@ -1,0 +1,24 @@
+:root {
+  --font-main: 'Poppins', sans-serif;
+  --color-background: #fff;
+  --color-font: #0D0D0D;
+  --color-progress-bar: #027373;
+  --color-background-bar: #A9D9D0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--color-background);
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+
