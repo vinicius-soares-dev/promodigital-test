@@ -1,0 +1,106 @@
+.popular-quiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.popular-quiz > .technology-quiz {
+    display: flex;
+    padding: 1em;
+    margin: 0.5em;
+    background: #fffefe;
+    width: 80%;
+    border-radius: 1em;
+}
+
+.popular-quiz > .technology-quiz > a >.title-quiz {
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.popular-quiz > .technology-quiz > .questions-tech {
+    position: absolute;
+    top: 21.5em;
+    left: 8.4em;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-main);
+    color: var(--color-font)
+}
+
+.popular-quiz > .sport-quiz {
+    display: flex;
+}
+
+.popular-quiz > .sport-quiz {
+    display: flex;
+    padding: 1em;
+    margin: 0.5em;
+    background: #fffefe;
+    width: 80%;
+    border-radius: 1em;
+}
+
+.popular-quiz > .sport-quiz > a >.title-quiz {
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.popular-quiz > .sport-quiz > .questions-sport {
+    position: absolute;
+    top: 28.5em;
+    left: 8.4em;
+}
+
+
+
+.popular-quiz > .sport-quiz > .ball-img {
+    background: #c0f0ff;
+    border-radius: 1em;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+.popular-quiz > .technology-quiz > .laptop-img {
+    background: #ffc0cb;
+    border-radius: 1em;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+.popular-quiz > .music-quiz > .music-img {
+    background: #c5032392;
+    border-radius: 1em;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+.popular-quiz > .music-quiz {
+    display: flex;
+    padding: 1em;
+    margin: 0.5em;
+    background: #fffefe;
+    width: 80%;
+    border-radius: 1em;
+}
+
+.popular-quiz > .music-quiz > a >.title-quiz {
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.popular-quiz > .music-quiz > .questions-music {
+    position: absolute;
+    bottom: 3.5em;
+    left: 8.4em;
+}
