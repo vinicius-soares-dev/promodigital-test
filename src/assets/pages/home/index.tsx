@@ -7,6 +7,7 @@ import { Stack, CircularProgress } from "@mui/material";
 import LaptopIcon from "../../img/icons8-notebook-50.png";
 import SoccerBallIcon from "../../img/icons8-bola-de-futebol-2-50.png";
 import MusicIcon from "../../img/icons8-adicionar-música-50.png";
+import StarIcon from "../../img/icons8-estrela-32.png";
 
 import { Link } from "react-router-dom";
 
@@ -45,9 +46,12 @@ export const Home = () => {
                         target="_self"
                     >
                         <p className="title-quiz">Technology</p>
-                    </Link>
 
-                    <p className="questions-tech">10 Question</p>
+                        <p className="questions-tech">10 Question</p>
+                    </Link>
+                    <img src={StarIcon} alt="star icon" className="star-icon"></img>
+                    <span className="evaluation-note">4.8</span>
+
                 </section>
 
                 <section className="sport-quiz">
@@ -60,11 +64,13 @@ export const Home = () => {
                         target="_self" 
                     >
                         <p className="title-quiz">Sport</p>
-                    </Link>
-
-                    <p className="questions-sport">
+                        <p className="questions-sport">
                         10 Question
-                    </p>
+                        </p>
+                    </Link>
+                    <img src={StarIcon} alt="star icon" className="star-icon"></img>
+                    <span className="evaluation-note">4.8</span>
+                    
                 </section>
 
                 <section className="music-quiz">
@@ -77,11 +83,13 @@ export const Home = () => {
                         target="_self"
                     >
                         <p className="title-quiz">Music</p>
-                    </Link>
-
-                    <p className="questions-music">
+                        <p className="questions-music">
                         10 Question
-                    </p>
+                        </p>
+                    </Link>
+                    <img src={StarIcon} alt="star icon" className="star-icon"></img>
+                    <span className="evaluation-note">4.8</span>
+
                 </section>
  
             </section>

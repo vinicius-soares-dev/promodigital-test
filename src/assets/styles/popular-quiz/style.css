@@ -20,21 +20,32 @@
     font-weight: bold;
 }
 
-.popular-quiz > .technology-quiz > .questions-tech {
-    position: absolute;
-    top: 21.5em;
-    left: 8.4em;
-}
-
 a {
     text-decoration: none;
     font-family: var(--font-main);
-    color: var(--color-font)
+    color: var(--color-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
 }
 
-.popular-quiz > .sport-quiz {
-    display: flex;
+
+.popular-quiz > .technology-quiz > a > .questions-tech {
+    font-size: 0.8em;
+    margin-top: 1em;
 }
+
+.popular-quiz > .sport-quiz > a > .questions-sport {
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.popular-quiz > .music-quiz > a > .questions-music {
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
 
 .popular-quiz > .sport-quiz {
     display: flex;
@@ -50,11 +61,6 @@ a {
     font-weight: bold;
 }
 
-.popular-quiz > .sport-quiz > .questions-sport {
-    position: absolute;
-    top: 28.5em;
-    left: 8.4em;
-}
 
 
 
@@ -76,13 +82,58 @@ a {
     padding: 0.3em;
 }
 
+.popular-quiz > .technology-quiz > .star-icon {
+    width: 16px;
+    height: 16px;
+    fill: gold;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.popular-quiz > .technology-quiz > .evaluation-note {
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+}
+
+.popular-quiz > .sport-quiz > .star-icon {
+    width: 16px;
+    height: 16px;
+    fill: gold;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.popular-quiz > .sport-quiz > .evaluation-note {
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+}
+
+.popular-quiz > .music-quiz > .star-icon {
+    width: 16px;
+    height: 16px;
+    fill: gold;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.popular-quiz > .music-quiz > .evaluation-note {
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+}
+
 .popular-quiz > .music-quiz > .music-img {
     background: #c5032392;
     border-radius: 1em;
     width: 70px;
     display: flex;
     justify-content: center;
-    padding: 0.3em;
+   
 }
 
 .popular-quiz > .music-quiz {
@@ -99,8 +150,3 @@ a {
     font-weight: bold;
 }
 
-.popular-quiz > .music-quiz > .questions-music {
-    position: absolute;
-    bottom: 3.5em;
-    left: 8.4em;
-}
