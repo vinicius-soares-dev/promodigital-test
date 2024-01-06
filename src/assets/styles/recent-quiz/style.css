@@ -1,0 +1,77 @@
+.recent-quiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recent-quiz > .description-section {
+    font-family: var(--font-main);
+    font-weight: lighter;
+    margin-right: 15em;
+}
+
+.recent-quiz > .recent-activities {
+    display: flex;
+    padding: 1em;
+}
+
+.recent-quiz > .recent-activities > .reading-quiz {
+    margin: 1em;
+    padding: 2em;
+    background: rgb(228, 222, 222);
+    border-radius: 8px;
+    width: 100px;
+    height: 90px;
+}
+
+.recent-quiz > .recent-activities > .reading-quiz > .book-img {
+    background: #fff;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.recent-quiz > .recent-activities > .reading-quiz > h5 {
+    font-size: 1em;
+    font-family: var(--font-main);
+}
+
+.recent-quiz > .recent-activities > .reading-quiz > p {
+    font-size: 0.6rem;
+    font-family: var(--font-main);
+}
+
+.recent-quiz > .recent-activities > .speaking-quiz {
+    margin: 1em;
+    padding: 2em;
+    background: rgb(228, 222, 222);
+    border-radius: 8px;
+    width: 100px;
+    height: 90px;
+}
+
+.recent-quiz > .recent-activities > .speaking-quiz > .phone-img {
+    background: #fff;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.recent-quiz > .recent-activities > .speaking-quiz > h5 {
+    font-size: 1em;
+    font-family: var(--font-main);
+}
+
+.recent-quiz > .recent-activities > .speaking-quiz > p {
+    font-size: 0.6rem;
+    font-family: var(--font-main);
+}
