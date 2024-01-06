@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./assets/pages/home";
 import { AboutTechnology } from "./assets/pages/about/technologyAbout";
-import { Quiz } from "./assets/pages/quiz";
+import { QuizTechnology } from "./assets/pages/quiz/technologyQuiz";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutTechnology" element={<AboutTechnology />} />
-        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/quiz" element={<QuizTechnology />} />
       </Routes>
     </Router>
   )
