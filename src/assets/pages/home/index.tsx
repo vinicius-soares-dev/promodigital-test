@@ -17,7 +17,6 @@ import LinearWithValueLabel from "../../components/LinearProgress";
 
 
 export const Home = () => {
-
     return (
         <>
             <Header />
@@ -74,7 +73,7 @@ export const Home = () => {
                     </section>
 
                     <Link 
-                        to={"#"} 
+                        to={"/aboutTechnology"} 
                         target="_self"
                     >
                         <p className="title-quiz">Technology</p>
