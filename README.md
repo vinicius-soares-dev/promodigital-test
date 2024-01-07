@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# PromoDigital Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Teste elaborado para a PromoDigital, trata-se da retratação de um layout de um quiz.
 
-Currently, two official plugins are available:
+## Como Clonar o Repositório
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Siga as etapas abaixo para clonar o repositório em sua máquina local:
 
-## Expanding the ESLint configuration
+1. Abra o terminal.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navegue até o diretório onde deseja clonar o repositório.
 
-- Configure the top-level `parserOptions` property like this:
+3. Execute o seguinte comando:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+    ```
+    git clone https://github.com/vinicius-soares-dev/promodigital-test
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Tecnologias utilizadas
+
+<table>
+  <tr>
+    <th>Tecnologia</th>
+    <th>Versão</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>React</td>
+    <td>^18.2.0</td>
+    <td>Biblioteca JavaScript para construir interfaces de usuário interativas e reutilizáveis.</td>
+  </tr>
+</table>
+
+
+## Instalação e Configuração
+
+Forneça instruções detalhadas sobre como instalar e configurar seu projeto. Inclua comandos, dependências e quaisquer configurações específicas.
+
+## Uso
+
+Explique como usar seu projeto. Forneça exemplos e comandos básicos para ajudar os usuários a começar.
+
+## Contribuição
+
+Explique como os outros podem contribuir para o seu projeto. Inclua diretrizes para envio de problemas (issues) e solicitações de pull (pull requests).
+
+## Licença
+
+Este projeto é licenciado sob a [Nome da Licença](URL da Licença). Consulte o arquivo `LICENSE` para obter mais detalhes.
+
+## Contato
+
+Inclua informações de contato para os usuários que desejam se comunicar com você sobre o projeto.
