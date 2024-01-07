@@ -19,3 +19,15 @@
 .progress-bar > .result-bar > p {
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 768px) {
+    .progress-bar {
+        width: 350px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .progress-bar > .result-bar > p {
+        font-size: 1rem;
+    }
+}

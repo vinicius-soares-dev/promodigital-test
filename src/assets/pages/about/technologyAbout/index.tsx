@@ -22,8 +22,8 @@ export const AboutTechnology = () => {
         
             <main className="main-container">
                 <section className="details-technology">
-                    <section className="soccer-image">
-                        <img src={laptopIcon} alt="soccer ball"></img>
+                    <section className="laptop-image">
+                        <img src={laptopIcon} alt="laptop image"></img>
                     </section>
 
                     <section className="about-quiz">

@@ -150,3 +150,43 @@ a {
     font-weight: bold;
 }
 
+
+@media screen and (min-width: 768px) {
+    .popular-quiz > .technology-quiz {
+        margin-left: 20em;
+    }
+
+    .popular-quiz > .sport-quiz {
+        margin-left: 20em;
+    }
+
+    .popular-quiz > .music-quiz {
+        margin-left: 20em;
+    }
+
+    .popular-quiz > .sport-quiz > a >.title-quiz {
+        font-size: 1.4rem;
+    }
+
+    .popular-quiz > .technology-quiz > a >.title-quiz {
+        font-size: 1.4rem;
+    }
+
+    .popular-quiz > .music-quiz > a >.title-quiz {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .popular-quiz > .technology-quiz {
+        margin-left: 44em;
+    }
+
+    .popular-quiz > .sport-quiz {
+        margin-left: 44em;
+    }
+
+    .popular-quiz > .music-quiz {
+        margin-left: 44em;
+    }
+}

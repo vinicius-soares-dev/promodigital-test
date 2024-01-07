@@ -27,14 +27,14 @@
     flex-direction: row;
 }
 
-.details-technology > .soccer-image {
+.details-technology > .laptop-image {
     width: 80%;
-    background-color: rgba(0, 164, 164, 0.467);
+    background: rgba(0, 164, 164, 0.467);
     text-align: center;
     border-radius: 10px;
 }
 
-.details-technology > .soccer-image > img {
+.details-technology > .laptop-image > img {
     max-width: 50%;
     margin-top: 0.5em;
 }
@@ -203,4 +203,60 @@ a > button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .header-technology > .title-header {
+        margin-right: 5em;
+        font-size: 1.8rem;
+    }
+
+    .details-technology > .laptop-image > img {
+        max-width: 80%;
+        margin-top: 0em;
+    }
+
+    .about-quiz > .title-quiz {
+        font-size: 1.5rem;
+    }
+
+    .about-quiz > .description-quiz {
+        margin-left: 2em;
+    }
+
+    .explanation-quiz > .title-explanation {
+        font-size: 1.3rem;
+    }
+
+    .description-question > p:nth-child(1) {
+        font-size: 1.4rem;
+    }
+    
+    .description-question > p:nth-child(2) {
+        font-family: var(--font-main);
+        font-size: 0.9rem;
+    }
+
+    .description-duration > p:nth-child(1) {
+        font-size: 1.4rem;
+    }
+    
+    .description-duration> p:nth-child(2) {
+        font-family: var(--font-main);
+        font-size: 0.9rem;
+    }
+
+    .read-container > h4 {
+        font-family: var(--font-main);
+        font-size: 1.4rem;
+    }
+    
+    .read-container > ul {
+        font-size: 1.3rem;
+    }
+
+    a > button {
+        padding: 1em 8em;
+        font-size: 1.3rem;
+    }
 }

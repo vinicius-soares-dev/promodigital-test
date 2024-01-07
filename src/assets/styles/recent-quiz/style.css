@@ -75,3 +75,29 @@
     font-size: 0.6rem;
     font-family: var(--font-main);
 }
+
+@media screen and (min-width: 768px) {
+    .recent-quiz > .description-section {
+        font-size: 1.3rem;
+        margin-right: 19em;
+        padding: 1em;
+    }
+    
+    .recent-quiz > .recent-activities > .reading-quiz {
+        width: 170px;
+        height: 120px;
+    }
+
+    .recent-quiz > .recent-activities > .speaking-quiz {
+        width: 170px;
+        height: 120px;
+    }
+
+    .recent-quiz > .recent-activities > .speaking-quiz > h5 {
+        font-size: 1.4em;
+    }
+
+    .recent-quiz > .recent-activities > .reading-quiz > h5 {
+        font-size: 1.4em;
+    }
+}
