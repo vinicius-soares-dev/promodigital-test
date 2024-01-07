@@ -30,25 +30,24 @@ Siga as etapas abaixo para clonar o repositório em sua máquina local:
     <td>^18.2.0</td>
     <td>Biblioteca JavaScript para construir interfaces de usuário interativas e reutilizáveis.</td>
   </tr>
+  <tr>
+    <td>TypeScript</td>
+    <td>^5.2.2</td>
+    <td>Superset tipado de JavaScript que compila para JavaScript puro.</td>
+  </tr>
+  <tr>
+    <td>Vite</td>
+    <td>^5.0.8</td>
+    <td>Build tool rápida e eficiente para projetos baseados em JavaScript e TypeScript.</td>
+  </tr>
 </table>
+
 
 
 ## Instalação e Configuração
 
-Forneça instruções detalhadas sobre como instalar e configurar seu projeto. Inclua comandos, dependências e quaisquer configurações específicas.
+  <ol>
+    <li>npm install</li>
+    <li>npm run dev</li>
+  </ol>
 
-## Uso
-
-Explique como usar seu projeto. Forneça exemplos e comandos básicos para ajudar os usuários a começar.
-
-## Contribuição
-
-Explique como os outros podem contribuir para o seu projeto. Inclua diretrizes para envio de problemas (issues) e solicitações de pull (pull requests).
-
-## Licença
-
-Este projeto é licenciado sob a [Nome da Licença](URL da Licença). Consulte o arquivo `LICENSE` para obter mais detalhes.
-
-## Contato
-
-Inclua informações de contato para os usuários que desejam se comunicar com você sobre o projeto.
